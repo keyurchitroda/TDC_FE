@@ -1,0 +1,484 @@
+.things-main {
+    padding-top: 72px;
+    padding-bottom: 72px;
+    gap: 3rem;
+    flex-direction: column;
+    display: flex;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+}
+
+.things-main-h1 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Box-1 starts */
+.things-main-box1 {
+    padding-top: 72px;
+    padding-bottom: 72px;
+    padding-left: 72px;
+    padding-right: 72px;
+    background-color: rgb(240 242 255);
+    border-radius: 1.5rem;
+    gap: 1.5rem;
+    align-items: center;
+    display: flex;
+}
+
+.things-box1-article {
+    flex-basis: 50%;
+}
+
+.box1-main-heading {
+    font-size: 1.75rem;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(28 28 34);
+}
+
+.box1-main-heading-span {
+    color: rgb(81 105 246);
+}
+
+.box1-main-para {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.box1-img {
+    height: 255px;
+    width: 500px;
+    padding-left: 0;
+}
+
+/* Box-1 ends  */
+
+/* Box-2 starts */
+.things-main-box2 {
+    padding-top: 72px;
+    padding-left: 72px;
+    padding-right: 72px;
+    background-color: rgb(255 247 227);
+    border-radius: 1.5rem;
+    gap: 1.5rem;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+
+.things-box2-article {
+    flex-basis: 50%;
+}
+
+.box2-main-heading {
+    font-size: 1.75rem;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(28 28 34);
+    margin-top: -10rem;
+}
+
+.box2-main-heading-span {
+    color: rgb(182 140 26);
+}
+
+.box2-main-para {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.box2-main-cards {
+    height: 200px;
+    flex-basis: 40%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 10rem;
+}
+
+.box2-cards {
+    height: 400px;
+    max-width: 24rem;
+    width: 100%;
+    position: relative;
+}
+
+.box2-card1 {
+    top: -2.25rem;
+    left: -0.75rem;
+    position: relative;
+}
+
+.box2-card2 {
+    top: -177px;
+    right: 25px;
+    position: relative;
+}
+
+.box2-card3 {
+    top: -318px;
+    right: 40px;
+    position: relative;
+}
+
+/* .box2-btn1{
+    font-size: 1rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    line-height: 1rem;
+    border-color: rgb(16 17 20);
+    border-width: 2px;
+    border-radius: 9999px;
+    white-space: nowrap;
+    background-color: rgb(253 223 142);
+    margin-right: 1rem;
+    rgb(253 223 142)
+    rgb(141 229 141)
+    rgb(192 159 251)
+} */
+/* Box-2 ends */
+
+
+/* Box-3 starts */
+.things-main-box3 {
+    padding-top: 72px;
+    padding-bottom: 72px;
+    padding-left: 72px;
+    padding-right: 72px;
+    background-color: rgb(240 242 255);
+    border-radius: 1.5rem;
+    gap: 1.5rem;
+    align-items: center;
+    display: flex;
+}
+
+.things-box3-article {
+    flex-basis: 50%;
+}
+
+.box3-main-heading {
+    font-size: 1.75rem;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(28 28 34);
+}
+
+.box3-main-heading-span {
+    color: rgb(89 12 230);
+}
+
+.box3-main-para {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.box3-img {
+    height: 280px;
+    width: 325px;
+    padding-left: 0;
+}
+/* Box-3 ends  */
+
+/*------------------------------------------------------------mini LP-----------------------------------------------------------*/
+@media (min-width:992px) and (max-width:1202px) {
+    .things-main-box1 {
+        flex-direction: column;
+    }
+
+    .box1-img {
+        height: 300px;
+        width: auto;
+        padding-left: 0;
+    }
+
+    .things-main-box2 {
+        flex-direction: column;
+    }
+
+    .box2-main-heading {
+        margin-top: 0;
+    }
+
+    .box2-cards{
+        height: 220px;
+    }
+
+    .things-main-box3 {
+        flex-direction: column;
+    }
+
+    .box3-img{
+        height: 300px;
+        width: auto;
+        padding-left: 0;
+    }
+}
+
+/*------------------------------------------------------------tablet------------------------------------------------------------*/
+@media (min-width:768px) and (max-width:991px) {
+    .things-main-box1 {
+        flex-direction: column;
+    }
+
+    .box1-img {
+        height: auto;
+        width: auto;
+        padding-left: 0;
+    }
+
+    .things-main-box2 {
+        flex-direction: column;
+    }
+
+    .box2-main-heading {
+        margin-top: 0;
+    }
+
+    .box2-cards{
+        height: 200px;
+    }
+
+    .things-main-box3 {
+        flex-direction: column;
+    }
+
+    .box3-img{
+        height: auto;
+        width: auto;
+        padding-left: 0;
+    }
+}
+
+/*------------------------------------------------------------mobile L.--------------------------------------------------------*/
+@media (min-width:576px) and (max-width:767px) {
+    .things-main {
+        padding-top: 52px;
+        padding-bottom: 52px;
+        gap: 1.5rem;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+    }
+
+    .things-main-h1 {
+        font-size: 1.3rem;
+    }
+
+    .downside-img {
+        width: 40px;
+        height: 40px;
+    }
+
+    /* Box-1 starts */
+    .things-main-box1 {
+        padding-top: 52px;
+        padding-bottom: 52px;
+        padding-left: 52px;
+        padding-right: 52px;
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    .box1-main-heading {
+        font-size: 1rem;
+    }
+
+    .box1-main-para {
+        margin-top: 1rem;
+        font-size: 0.95rem;
+    }
+
+    .box1-img {
+        height: auto;
+        width: auto;
+        padding-left: 0;
+    }
+    /* Box-1 ends  */
+
+    /* Box-2 starts */
+    .things-main-box2 {
+        padding-top: 52px;
+        padding-bottom: 52px;
+        padding-left: 52px;
+        padding-right: 52px;
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    .box2-main-heading {
+        font-size: 1rem;
+        margin-top: 0;
+    }
+
+    .box2-main-para {
+        margin-top: 1rem;
+        font-size: 0.95rem;
+    }
+
+    .box2-cards {
+        height: 0;
+    }
+
+    .box2-card1 {
+        height: 93px;
+        top: -135px;
+        left: 15px;
+    }
+
+    .box2-card2 {
+        height: 93px;
+        top: -235px;
+        right: -8px;
+    }
+
+    .box2-card3 {
+        height: 93px;
+        top: -335px;
+        right: 0;
+    }
+    /* Box-2 ends */
+
+    /* Box-3 starts */
+    .things-main-box3 {
+        padding-top: 52px;
+        padding-bottom: 52px;
+        padding-left: 52px;
+        padding-right: 52px;
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    .box3-main-heading {
+        font-size: 1rem;
+    }
+
+    .box3-main-para {
+        margin-top: 1rem;
+        font-size: 0.95rem;
+    }
+
+    .box3-img {
+        height: auto;
+        width: auto;
+        padding-left: 0;
+    }
+    /* Box-3 ends  */
+}
+
+/*------------------------------------------------------------mobile P.--------------------------------------------------------*/
+@media (max-width:575px) {
+    .things-main {
+        padding-top: 42px;
+        padding-bottom: 42px;
+        gap: 1.5rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    .things-main-h1 {
+        font-size: 0.85rem;
+    }
+
+    .downside-img {
+        width: 20px;
+        height: 20px;
+    }
+
+    /* Box-1 starts */
+    .things-main-box1 {
+        padding-top: 42px;
+        padding-bottom: 42px;
+        padding-left: 42px;
+        padding-right: 42px;
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    .box1-main-heading {
+        font-size: 1rem;
+    }
+
+    .box1-main-para {
+        margin-top: 1rem;
+        font-size: 0.75rem;
+    }
+
+    .box1-img {
+        height: auto;
+        width: auto;
+        padding-left: 0;
+    }
+    /* Box-1 ends  */
+
+    /* Box-2 starts */
+    .things-main-box2 {
+        padding-top: 42px;
+        padding-bottom: 42px;
+        padding-left: 42px;
+        padding-right: 42px;
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    .box2-main-heading {
+        font-size: 1rem;
+        margin-top: 0;
+    }
+
+    .box2-main-para {
+        margin-top: 1rem;
+        font-size: 0.75rem;
+    }
+
+    .box2-cards {
+        height: 0;
+    }
+
+    .box2-card1 {
+        height: 93px;
+        top: -135px;
+        left: 15px;
+    }
+
+    .box2-card2 {
+        height: 93px;
+        top: -235px;
+        right: -8px;
+    }
+
+    .box2-card3 {
+        height: 93px;
+        top: -335px;
+        right: 0;
+    }
+    /* Box-2 ends */
+
+    /* Box-3 starts */
+    .things-main-box3 {
+        padding-top: 42px;
+        padding-bottom: 42px;
+        padding-left: 42px;
+        padding-right: 42px;
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    .box3-main-heading {
+        font-size: 1rem;
+    }
+
+    .box3-main-para {
+        margin-top: 1rem;
+        font-size: 0.75rem;
+    }
+
+    .box3-img {
+        height: auto;
+        width: auto;
+        padding-left: 0;
+    }
+    /* Box-3 ends  */
+}

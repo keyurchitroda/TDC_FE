@@ -1,0 +1,335 @@
+.footer-main {
+    padding-top: 5rem;
+    color: rgb(252 252 253);
+    background-color: rgb(16 17 20);
+}
+
+.footer-main-info {
+    flex-wrap: nowrap;
+    gap: 1rem;
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
+}
+
+.info1-main {
+    max-width: 20rem;
+}
+
+.info1-icons {
+    gap: 1.75rem;
+    margin-top: 2.5rem;
+    align-items: center;
+    display: flex;
+}
+
+.info2-main {
+    font-size: 1.125rem;
+}
+
+.info2-h4 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.info2-ul {
+    width: fit-content;
+    margin-top: 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.info2-li1 {
+    margin-top: 0.3rem;
+    cursor: pointer;
+}
+
+.info3-main {
+    font-size: 1.125rem;
+}
+
+.info3-h4 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.info3-ul {
+    width: fit-content;
+    margin-top: 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.info3-li1 {
+    margin-top: 0.3rem;
+    cursor: pointer;
+}
+
+.info4-main {
+    font-size: 1.125rem;
+}
+
+.info4-h4 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.info4-ul {
+    width: fit-content;
+    margin-top: 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.info4-li1 {
+    cursor: pointer;
+}
+
+.info4-btn1 {
+    color: rgb(16 17 20);
+    background-color: rgb(252 252 253);
+    font-size: 1.125rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-weight: 600;
+    border-radius: 9999px;
+    margin-top: 1.5rem;
+}
+
+.info4-btn2 {
+    color: rgb(16 17 20);
+    background-color: rgb(252 252 253);
+    font-size: 1.125rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 3rem;
+    font-weight: 600;
+    border-radius: 9999px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.info4-li3 {
+    font-size: 1.3rem;
+}
+
+.footer-bottom-main-img {
+    padding-top: 10vmin;
+    padding-bottom: 0.25rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+/*------------------------------------------------------------mini LP-----------------------------------------------------------*/
+@media (min-width:992px) and (max-width:1199px) {
+    .info4-btn1 {
+        font-size: 0.8rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .info4-btn2 {
+        font-size: 0.8rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 1rem;
+        padding-right: 1.9rem;
+    }
+}
+
+/*------------------------------------------------------------tablet------------------------------------------------------------*/
+@media (min-width:768px) and (max-width:991px) {
+    .footer-main-info {
+        gap: 2rem;
+        flex-direction: column;
+    }
+}
+
+/*------------------------------------------------------------mobile L.--------------------------------------------------------*/
+@media (min-width:576px) and (max-width:767px) {
+    .footer-main {
+        padding-top: 2rem;
+    }
+
+    .footer-main-info {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .info1-main {
+        max-width: 20rem;
+    }
+
+    .info1-icons {
+        gap: 1rem;
+        margin-top: 1.5rem;
+    }
+
+    .info2-main {
+        font-size: 0.85rem;
+    }
+
+    .info2-h4 {
+        font-size: 1.1rem;
+    }
+
+    .info2-ul {
+        margin-top: 0.5rem;
+    }
+
+    .info2-li1 {
+        margin-top: 0.2rem;
+    }
+
+    .info3-main {
+        font-size: 0.85rem;
+    }
+
+    .info3-h4 {
+        font-size: 1.1rem;
+    }
+
+    .info3-ul {
+        margin-top: 0.5rem;
+    }
+
+    .info3-li1 {
+        margin-top: 0.2rem;
+    }
+
+    .info4-main {
+        font-size: 0.85rem;
+    }
+
+    .info4-h4 {
+        font-size: 1.1rem;
+    }
+
+    .info4-ul {
+        margin-top: 0.5rem;
+    }
+
+    .info4-li1 {
+        cursor: pointer;
+    }
+
+    .info4-btn1 {
+        font-size: 0.95rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin-top: 1rem;
+    }
+
+    .info4-btn2 {
+        font-size: 0.95rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 2rem;
+        padding-right: 2.9rem;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .info4-li3 {
+        font-size: 0.9rem;
+    }
+}
+
+/*------------------------------------------------------------mobile P.--------------------------------------------------------*/
+@media (max-width:575px) {
+    .footer-main {
+        padding-top: 2rem;
+    }
+
+    .footer-main-info {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .info1-main {
+        max-width: 20rem;
+    }
+
+    .info1-icons {
+        gap: 1rem;
+        margin-top: 1.5rem;
+    }
+
+    .info2-main {
+        font-size: 0.85rem;
+    }
+
+    .info2-h4 {
+        font-size: 1.1rem;
+    }
+
+    .info2-ul {
+        margin-top: 0.5rem;
+    }
+
+    .info2-li1 {
+        margin-top: 0.2rem;
+    }
+
+    .info3-main {
+        font-size: 0.85rem;
+    }
+
+    .info3-h4 {
+        font-size: 1.1rem;
+    }
+
+    .info3-ul {
+        margin-top: 0.5rem;
+    }
+
+    .info3-li1 {
+        margin-top: 0.2rem;
+    }
+
+    .info4-main {
+        font-size: 0.85rem;
+    }
+
+    .info4-h4 {
+        font-size: 1.1rem;
+    }
+
+    .info4-ul {
+        margin-top: 0.5rem;
+    }
+
+    .info4-li1 {
+        cursor: pointer;
+    }
+
+    .info4-btn1 {
+        font-size: 0.8rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin-top: 1rem;
+    }
+
+    .info4-btn2 {
+        font-size: 0.8rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 2rem;
+        padding-right: 2.9rem;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .info4-li3 {
+        font-size: 0.9rem;
+    }
+}

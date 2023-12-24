@@ -1,0 +1,543 @@
+.home-main{
+    background-color: rgb(16 17 20);
+    overflow: hidden;
+    position: relative;
+    height: 96vh;
+}
+
+.home-main-bc-img{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    position: absolute;
+}
+
+.img1{
+    top: 25%;
+    left: 10%;
+    opacity: 0.7;
+    position: absolute;
+}
+
+.img2{
+    top: 22%;
+    left: 33%;
+    opacity: 0.6;
+    position: absolute;
+}
+
+.img3{
+    top: 24%;
+    left: 60%;
+    opacity: 0.3;
+    position: absolute;
+}
+
+.img4{
+    top: 26%;
+    left: 80%;
+    opacity: 0.3;
+    position: absolute;
+}
+
+.img5{
+    top: 25%;
+    left: 90%;
+    opacity: 1;
+    position: absolute;
+}
+
+.img6{
+    top: 45%;
+    left: 5%;
+    opacity: 1;
+    position: absolute;
+}
+
+.img7{
+    top: 65%;
+    left: 10%;
+    opacity: 0.2;
+    position: absolute;
+}
+
+.img8{
+    top: 87%;
+    left: 5%;
+    opacity: 0.6;
+    position: absolute;
+}
+
+.img9{
+    top: 77%;
+    left: 22%;
+    opacity: 0.5;
+    position: absolute;
+}
+
+.img10{
+    top: 78%;
+    left: 61%;
+    opacity: 0.6;
+    position: absolute;
+}
+
+.img11{
+    top: 78%;
+    left: 70%;
+    opacity: 1;
+    position: absolute;
+}
+
+.img12{
+    top: 65%;
+    left: 93%;
+    opacity: 0.6;
+    position: absolute;
+}
+
+.img13{
+    top: 65%;
+    left: 85%;
+    opacity: 0.3;
+    position: absolute;
+}
+
+.home-main-heading{
+    color: rgb(252 252 253);
+    text-align: center;
+    gap: 0.75rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    z-index: 10;
+    position: relative;
+}
+
+.home-main2-heading{
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.625;
+}
+
+.home-main-h1{
+    transform-style: preserve-3d;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home-main-h2{
+    transform-style: preserve-3d;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home-main-heading-p{
+    font-size: 1.5rem;
+    max-width: 56rem;
+}
+
+.home-main-btn-div1{
+    width: fit-content;
+    margin-top: 1.25rem;
+}
+
+.home-main-btn-div2{
+    gap: 1.5rem;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+}
+
+.home-main-btn1{
+    color: rgb(16 17 20);
+    background-color: rgb(252 252 253);
+    font-size: 1.125rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-weight: 600;
+    border-radius: 9999px;
+}
+
+.home-main-btn2{
+    color: rgb(16 17 20);
+    background-color: rgb(252 252 253);
+    font-size: 1.125rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-weight: 600;
+    border-radius: 9999px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/*------------------------------------------------------------mini LP-----------------------------------------------------------*/
+@media (min-width:992px) and (max-width:1199px){
+    .img1{
+        height: 80px;
+        width: 80px;
+    }
+
+    .img2{
+        height: 80px;
+        width: 80px;
+    }
+
+    .img3{
+        height: 80px;
+        width: 80px;
+    }
+
+    .img4{
+        height: 80px;
+        width: 80px;
+    }
+
+    .img5{
+        height: 80px;
+        width: 80px;
+    }
+
+    .img6{
+        height: 80px;
+        width: 80px;
+        opacity: 0.3;
+    }
+
+    .img7{
+        height: 80px;
+        width: 80px;
+    }
+
+    .img8{
+        height: 80px;
+        width: 80px;
+    }
+
+    .img9{
+        height: 80px;
+        width: 80px;
+    }
+
+    .img10{
+        height: 80px;
+        width: 80px;
+    }
+
+    .img11{
+        height: 80px;
+        width: 80px;
+    }
+
+    .img12{
+        height: 80px;
+        width: 80px;
+    }
+
+    .img13{
+        height: 80px;
+        width: 80px;
+    }
+}
+
+/*------------------------------------------------------------tablet------------------------------------------------------------*/
+@media (min-width:768px) and (max-width:991px){
+    .img1{
+        height: 70px;
+        width: 70px;
+    }
+
+    .img2{
+        height: 70px;
+        width: 70px;
+    }
+
+    .img3{
+        height: 70px;
+        width: 70px;
+    }
+
+    .img4{
+        height: 70px;
+        width: 70px;
+    }
+
+    .img5{
+        height: 70px;
+        width: 70px;
+    }
+
+    .img6{
+        height: 70px;
+        width: 70px;
+        opacity: 0.3;
+    }
+
+    .img7{
+        height: 70px;
+        width: 70px;
+    }
+
+    .img8{
+        height: 70px;
+        width: 70px;
+    }
+
+    .img9{
+        height: 70px;
+        width: 70px;
+    }
+
+    .img10{
+        height: 70px;
+        width: 70px;
+    }
+
+    .img11{
+        height: 70px;
+        width: 70px;
+    }
+
+    .img12{
+        height: 70px;
+        width: 70px;
+    }
+
+    .img13{
+        height: 70px;
+        width: 70px;
+    }
+}
+
+/*------------------------------------------------------------mobile L.--------------------------------------------------------*/
+@media (min-width:576px) and (max-width:767px){
+    .img1{
+        height: 60px;
+        width: 60px;
+    }
+
+    .img2{
+        height: 60px;
+        width: 60px;
+    }
+
+    .img3{
+        height: 60px;
+        width: 60px;
+    }
+
+    .img4{
+        height: 60px;
+        width: 60px;
+    }
+
+    .img5{
+        height: 60px;
+        width: 60px;
+    }
+
+    .img6{
+        height: 60px;
+        width: 60px;
+        opacity: 0.3;
+    }
+
+    .img7{
+        height: 60px;
+        width: 60px;
+    }
+
+    .img8{
+        height: 60px;
+        width: 60px;
+    }
+
+    .img9{
+        height: 60px;
+        width: 60px;
+    }
+
+    .img10{
+        height: 60px;
+        width: 60px;
+    }
+
+    .img11{
+        height: 60px;
+        width: 60px;
+    }
+
+    .img12{
+        height: 60px;
+        width: 60px;
+    }
+
+    .img13{
+        height: 60px;
+        width: 60px;
+    }
+    
+    .home-main-h1{
+        font-size: 1.5rem;
+    }
+    
+    .home-main-h2{
+        font-size: 1.5rem;
+    }
+    
+    .home-main-heading-p{
+        font-size: 0.95rem;
+    }
+    
+    .home-main-btn-div2{
+        gap: 0.75rem;
+        flex-direction: column;
+    }
+    
+    .home-main-btn1{
+        font-size: 0.75rem;
+        padding-top: 0.3rem;
+        padding-bottom: 0.3rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    .home-main-btn2{
+        font-size: 0.75rem;
+        padding-top: 0.3rem;
+        padding-bottom: 0.3rem;
+        padding-left: 1.3rem;
+        padding-right: 1.5rem;
+    }
+}
+
+/*------------------------------------------------------------mobile P.--------------------------------------------------------*/
+@media (max-width:575px){
+    .img1{
+        top: 15%;
+        height: 50px;
+        width: 50px;
+    }
+
+    .img2{
+        top: 10%;
+        height: 50px;
+        width: 50px;
+    }
+
+    .img3{
+        top: 15%;
+        height: 50px;
+        width: 50px;
+    }
+
+    .img4{
+        top: 45%;
+        height: 50px;
+        width: 50px;
+    }
+
+    .img5{
+        left: 85%;
+        height: 50px;
+        width: 50px;
+    }
+
+    .img6{
+        height: 50px;
+        width: 50px;
+        opacity: 0.3;
+    }
+
+    .img7{
+        top: 60%;
+        left: 20%;
+        height: 50px;
+        width: 50px;
+    }
+
+    .img8{
+        top: 70%;
+        height: 50px;
+        width: 50px;
+    }
+
+    .img9{
+        top: 80%;
+        left: 40%;
+        height: 50px;
+        width: 50px;
+    }
+
+    .img10{
+        top: 80%;
+        height: 50px;
+        width: 50px;
+    }
+
+    .img11{
+        top: 80%;
+        left: 80%;
+        height: 50px;
+        width: 50px;
+    }
+
+    .img12{
+        top: 40%;
+        left: 50%;
+        opacity: 0.2;
+        height: 50px;
+        width: 50px;
+    }
+
+    .img13{
+        top: 70%;
+        left: 50%;
+        height: 50px;
+        width: 50px;
+    }
+    
+    .home-main-h1{
+        font-size: 1rem;
+    }
+    
+    .home-main-h2{
+        font-size: 1rem;
+    }
+    
+    .home-main-heading-p{
+        font-size: 0.75rem;
+    }
+    
+    .home-main-btn-div2{
+        gap: 0.5rem;
+        flex-direction: column;
+    }
+    
+    .home-main-btn1{
+        font-size: 0.65rem;
+        padding-top: 0.3rem;
+        padding-bottom: 0.3rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    .home-main-btn2{
+        font-size: 0.65rem;
+        padding-top: 0.3rem;
+        padding-bottom: 0.3rem;
+        padding-left: 1.3rem;
+        padding-right: 1.5rem;
+    }
+}

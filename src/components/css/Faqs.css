@@ -1,0 +1,75 @@
+.faqs-main-div{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.faqs-second-div{
+    padding: 72px;
+    border: 2px solid black;
+    background-color: rgb(252 252 253);
+    border-radius: 1.5rem;
+}
+
+.faqs-main-h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.faqs-main{
+    border: 1px solid black;
+}
+
+.faqs-1{
+    background-color: beige;
+    border-bottom: 0.5px solid black;
+}
+
+.faqs-2{
+    background-color: lavender;
+    border-bottom: 0.5px solid black;
+    border-top: 0.5px solid black;
+}
+
+.faqs-3{
+    background-color: beige;
+    border-bottom: 0.5px solid black;
+    border-top: 0.5px solid black;
+}
+
+.faqs-4{
+    background-color: lavender;
+    border-top: 0.5px solid black;
+}
+
+/*------------------------------------------------------------mini LP-----------------------------------------------------------*/
+@media (min-width:992px) and (max-width:1199px){
+
+}
+
+/*------------------------------------------------------------tablet------------------------------------------------------------*/
+@media (min-width:768px) and (max-width:991px){
+    .faqs-second-div{
+        padding: 42px;
+    }
+}
+
+/*------------------------------------------------------------mobile L.--------------------------------------------------------*/
+@media (min-width:576px) and (max-width:767px){
+    .faqs-second-div{
+        padding: 32px;
+    }
+}
+
+/*------------------------------------------------------------mobile P.--------------------------------------------------------*/
+@media (max-width:575px){
+    .faqs-second-div{
+        padding: 22px;
+    }
+
+    .faqs-main-h1{
+        font-size: 1.5rem;
+    }
+}

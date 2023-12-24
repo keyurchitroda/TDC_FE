@@ -1,0 +1,132 @@
+.number-main{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-color: rgb(16 17 20);
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.number-main-h1{
+    color: rgb(252 252 253);
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.number-main-boxes{
+    gap: 72px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 72rem;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.number-box1{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    text-align: center;
+    background-color: rgb(192 159 251);
+    border-radius: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 18rem;
+    height: 18rem;
+    display: flex;
+}
+
+.box1-h2{
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.number-box2{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    text-align: center;
+    background-color: rgb(164 235 164);
+    border-radius: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 18rem;
+    height: 18rem;
+    display: flex;
+}
+
+.box2-h2{
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.number-box3{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    text-align: center;
+    background-color: rgb(253 223 142);
+    border-radius: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 18rem;
+    height: 18rem;
+    display: flex;
+}
+
+.box3-h2{
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*------------------------------------------------------------mini LP-----------------------------------------------------------*/
+@media (min-width:992px) and (max-width:1199px){
+
+}
+
+/*------------------------------------------------------------tablet------------------------------------------------------------*/
+@media (min-width:768px) and (max-width:991px){
+    .number-main-boxes{
+        gap: 42px;
+    }
+}
+
+/*------------------------------------------------------------mobile L.--------------------------------------------------------*/
+@media (min-width:576px) and (max-width:767px){
+    .number-main-boxes{
+        gap: 32px;
+    }
+}
+
+/*------------------------------------------------------------mobile P.--------------------------------------------------------*/
+@media (max-width:575px){
+    .number-main-boxes{
+        gap: 22px;
+    }
+
+    .number-box1{
+        height: 16rem;
+        width: 16rem;
+    }
+
+    .number-box2{
+        height: 16rem;
+        width: 16rem;
+    }
+
+    .number-box3{
+        height: 16rem;
+        width: 16rem;
+    }
+}
