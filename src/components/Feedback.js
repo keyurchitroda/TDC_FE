@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useEffect } from "react";
 import "./css/Feedback.css";
 const db = "/images/Feedback/double-quotes.svg";
 const dbf = "/images/Feedback/double-quotes-finish.svg";
@@ -15,6 +15,7 @@ const img8 = "/images/Feedback/sneha-biswas.webp";
 const img9 = "/images/Feedback/hasita-meka.webp";
 const img10 = "/images/Feedback/ashish-thomas.webp";
 const img11 = "/images/Feedback/mahaprasad-mohanty.webp";
+// import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Feedback() {
   return (
@@ -24,20 +25,8 @@ export default function Feedback() {
           Don't take our word for it, see what the community is saying
         </h3>
 
-        {/* <div className='box1'>
-                    <img src={img1} alt=''></img>
-                    <p className='box1-p'><img src={db} alt='' width={20} height={20} />  I met CTO for my startup in this community. He’s still working with us. Couldn’t ask for a better person. Network on the BL Community, if done right, you can find a motivated team there.  <img src={dbf} alt='' width={20} height={20} /></p>
-                    <h5 className='box1-h5'>Ayush Mittal</h5>
-                </div>
-
-                <div className='box2'>
-                    <img src={img1} alt=''></img>
-                    <p className='box2-p'><img src={db} alt='' width={20} height={20} />  I met CTO for my startup in this community. He’s still working with us. Couldn’t ask for a better person. Network on the BL Community, if done right, you can find a motivated team there.  <img src={dbf} alt='' width={20} height={20} /></p>
-                    <h5 className='box2-h5'>Ayush Mittal</h5>
-                </div> */}
-
-        <div className="container text-center">
-          <div className="row justify-content-start">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center ">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             <div className="col-lg-3">
               <div className="box1">
                 <img src={img1} alt=""></img>
@@ -93,7 +82,7 @@ export default function Feedback() {
             </div>
           </div>
 
-          <div className="row justify-content-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             <div className="col-lg-4">
               <div className="box5">
                 <img src={img5} alt=""></img>
@@ -137,7 +126,7 @@ export default function Feedback() {
             </div>
           </div>
 
-          <div className="row justify-content-start">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             <div className="col-lg-3">
               <div className="box8">
                 <img src={img8} alt=""></img>

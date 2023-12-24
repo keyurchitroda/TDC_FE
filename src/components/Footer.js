@@ -12,7 +12,7 @@ export default function Footer() {
   return (
     <div>
       <div className="footer-main">
-        <div className="container realative">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 realative">
           <div className="footer-main-info">
             <div className="info1-main">
               <p>
@@ -30,7 +30,7 @@ export default function Footer() {
             </div>
 
             <div className="info2-main">
-              <h4 className="info2-h4">COMPANY</h4>
+              <h4 className="info2-h4 font-sans text-lg font-bold">COMPANY</h4>
               <ul className="info2-ul">
                 <li className="info2-li1">About us</li>
                 <li className="info2-li1">Privacy policy</li>
@@ -39,7 +39,9 @@ export default function Footer() {
             </div>
 
             <div className="info3-main">
-              <h4 className="info3-h4">QUICK LINKS</h4>
+              <h4 className="info3-h4 font-sans text-lg font-bold">
+                QUICK LINKS
+              </h4>
               <ul className="info3-ul">
                 <li className="info3-li1">Hire talent</li>
                 <li className="info3-li1">Find work</li>
@@ -51,7 +53,9 @@ export default function Footer() {
             </div>
 
             <div className="info4-main">
-              <h4 className="info4-h4">DOWNLOAD THE APP</h4>
+              <h4 className="info4-h4 font-sans text-lg font-bold">
+                DOWNLOAD THE APP
+              </h4>
               <ul className="info4-ul">
                 <li className="info4-li1">
                   <button className="info4-btn1 flex items-center">
