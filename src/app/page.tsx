@@ -9,6 +9,7 @@ export default function Home1() {
   return (
     <>
       <Navbar />
+
       <Home />
       <Feedback />
       {/* <Faqs /> */}
